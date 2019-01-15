@@ -32,6 +32,10 @@ class ArticlePolicy
 In addition to entities, table objects and queries can have policies resolved.
 These objects use the following conventions:
 
+// TODO
+* Table policies look like: ArticlesTablePolicy
+* Query policies look like: ArticlesQueryPolicy
+//
 
 ### Writing Policy Methods
 
