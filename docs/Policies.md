@@ -1,4 +1,4 @@
-## Policies
+'## Policies
 
 Policies are classes that resolve permissions for a given object. You can create
 policies for any class in your application that you wish to apply permissions
@@ -32,8 +32,9 @@ class ArticlePolicy
 In addition to entities, table objects and queries can have policies resolved.
 These objects use the following conventions:
 
+Table policies use the file naming convention: _ArticlesTablePolicy.php_
+
 // TODO
-* Table policies look like: ArticlesTablePolicy
 * Query policies look like: ArticlesQueryPolicy
 //
 
